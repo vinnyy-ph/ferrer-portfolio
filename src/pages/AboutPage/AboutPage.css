@@ -1,0 +1,58 @@
+/* EXPERIENCE & EDUCATION SECTION */
+.about-info-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .about-info-section {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.experience-card,
+.education-card {
+  box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.27) 0px 3px 5.4px -2px inset;
+  background-color: #1c1c1c;
+  border-radius: 1rem;
+  padding: 2rem;
+  flex: 1;
+}
+
+.experience-card h2,
+.education-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.experience-card ul,
+.education-card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experience-card li h3,
+.education-card li h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: #dec79b;
+}
+
+.experience-card li p,
+.education-card li p {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.experience-card li span,
+.education-card li span {
+  font-size: 0.85rem;
+  color: #bbb;
+}

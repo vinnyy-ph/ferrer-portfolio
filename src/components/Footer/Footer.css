@@ -1,0 +1,53 @@
+/* CTA Section */
+.cta-section {
+  box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.27) 0px 3px 5.4px -2px inset;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    text-align: center;
+    padding: 3rem !important;
+  }
+  
+  .cta-section h2 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  .cta-section p {
+    color: #ccc;
+    margin-bottom: 1.5rem;
+  }
+  .cta-button {
+      background-color: #dec79b;
+      border: none;
+      color: #1c1c1c;
+      padding: 0.8rem 1.5rem;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+  }
+  .cta-button:hover {
+    box-shadow: 0 0 20px white;
+    transition: box-shadow 0.3s;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #111;
+    padding: 1rem 0;
+    margin-top: 3rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .footer-content p {
+    color: #888;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  

@@ -1,0 +1,56 @@
+.companies-marquee-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color: #1c1c1c;
+  padding: 1rem;
+  border-radius: 16px;
+  box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.27) 0px 3px 5.4px -2px inset;
+}
+
+.marquee {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  height: 95px; 
+}
+
+.marquee-content {
+  display: flex;
+  align-items: center;
+  animation: scroll-marquee 15s linear infinite;
+}
+
+.marquee-item {
+  flex: 0 0 auto;
+  opacity: var(--marquee-opacity, 0.5);
+  /* width: 120px;   */
+  height: 120px;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+}
+
+.marquee-item:hover{
+    opacity: 1;
+}
+
+.marquee-item img {
+  max-width: 100%;
+  max-height: 40px;
+  object-fit: contain;
+}
+
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
